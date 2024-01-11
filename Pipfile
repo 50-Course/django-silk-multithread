@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 django = "==4.2.9"
-django-silk = "==5.0.4"
+# django-silk = "==5.0.4"
+django-silk = {git = "https://github.com/jazzband/django-silk.git",ref = "master"}
 setuptools = "*"
 
 [dev-packages]
