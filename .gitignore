@@ -1,0 +1,3 @@
+*.pyc
+/mysite/static/
+/mysite/db.sqlite3
